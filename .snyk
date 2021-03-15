@@ -8,3 +8,8 @@ patch:
         patched: '2021-03-15T11:50:54.176Z'
     - resource > nano-adapter > nano > follow > request > qs:
         patched: '2021-03-15T11:50:54.176Z'
+  'npm:http-signature:20150122':
+    - resource > nano-adapter > nano > request > http-signature:
+        patched: '2021-03-15T12:07:56.382Z'
+    - resource > nano-adapter > nano > follow > request > http-signature:
+        patched: '2021-03-15T12:07:56.382Z'
