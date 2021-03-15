@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:qs:20140806':
+    - resource > nano-adapter > nano > request > qs:
+        patched: '2021-03-15T11:50:54.176Z'
+    - resource > nano-adapter > nano > follow > request > qs:
+        patched: '2021-03-15T11:50:54.176Z'
