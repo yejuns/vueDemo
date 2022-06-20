@@ -14,9 +14,9 @@
   "dependencies": {
     "resource": "^0.8.1",
     "vue": "^2.5.2",
-    "vue-resource": "^1.5.1",
+    "vue-resource": "^1.5.3",
     "vue-router": "^3.0.7",
-    "snyk": "^1.487.0"
+    "snyk": "^1.685.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
