@@ -8,15 +8,15 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "resource": "^0.8.1",
     "vue": "^2.5.2",
-    "vue-resource": "^1.5.1",
+    "vue-resource": "^1.5.3",
     "vue-router": "^3.0.7",
-    "snyk": "^1.487.0"
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
