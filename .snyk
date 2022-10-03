@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.19.0
+version: v1.25.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -13,3 +13,27 @@ patch:
         patched: '2021-03-15T12:07:56.382Z'
     - resource > nano-adapter > nano > follow > request > http-signature:
         patched: '2021-03-15T12:07:56.382Z'
+  'npm:hawk:20160119':
+    - resource > nano-adapter > nano > request > hawk:
+        patched: '2022-10-03T17:17:32.557Z'
+    - resource > nano-adapter > nano > follow > request > hawk:
+        patched: '2022-10-03T17:17:32.557Z'
+  'npm:mime:20170907':
+    - resource > nano-adapter > nano > request > mime:
+        patched: '2022-10-03T17:17:32.557Z'
+    - resource > nano-adapter > nano > request > form-data > mime:
+        patched: '2022-10-03T17:17:32.557Z'
+    - resource > nano-adapter > nano > follow > request > mime:
+        patched: '2022-10-03T17:17:32.557Z'
+    - resource > nano-adapter > nano > follow > request > form-data > mime:
+        patched: '2022-10-03T17:17:32.557Z'
+  'npm:qs:20140806-1':
+    - resource > nano-adapter > nano > request > qs:
+        patched: '2022-10-03T17:17:32.557Z'
+    - resource > nano-adapter > nano > follow > request > qs:
+        patched: '2022-10-03T17:17:32.557Z'
+  'npm:request:20160119':
+    - resource > nano-adapter > nano > request:
+        patched: '2022-10-03T17:17:32.557Z'
+    - resource > nano-adapter > nano > follow > request:
+        patched: '2022-10-03T17:17:32.557Z'
